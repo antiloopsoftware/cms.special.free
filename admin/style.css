@@ -1,0 +1,135 @@
+body {
+background: #078FB9;
+font-size: 12px;
+font-family: Arial, Tahoma, Verdana;
+margin: 10px auto;
+}
+/*Conteneur --- On applique un overflow:auto pour éviter que le menu qui est en float sorte du cadre*/
+#moncadre {
+width:1000px;
+margin: 0px auto;
+background-color:#FFF;
+border:solid 1px #0072A1;
+overflow:auto;
+}
+/*Menu de droite*/
+.cadredumenudroite {
+float:right;
+text-align:left;
+width:140px;
+background-color:#FFF;
+border-left:1px solid #D5F4FF;
+color:#666666;
+margin:5px;
+padding:5px;
+}
+.cadredumenudroite h1{
+color:#FFF;
+font-size: 15px;
+border: 1px solid #0072A1;
+background:#0072A1;
+margin:5px;
+padding:5px;
+text-align:center;
+}
+/* cadre du conteneur */
+.cadrecentrale {
+width:820px;
+border:1px solid #D5F4FF;
+background-color:#FFF;
+margin:5px;
+padding:5px;
+}
+/*Pied de page*/
+.footer {
+color:#669900;
+margin:5px;
+padding:5px;
+}
+/*liste*/
+ul{
+list-style-type: none;
+padding: 5px;
+}
+/*************Décoration*******************/
+/*Titre*/
+h1 {color:#0072A1;font-size: 25px;border-bottom: 1px solid #0072A1;}
+h2 {color:#669900;font-size: 20px; border-bottom: 1px solid #669900;}
+/*Lien du menu*/
+a.menu {
+display : block;
+text-decoration : none;
+color : #0072A1;
+}
+a.menu:hover {
+display : block;
+background : #D5F4FF;
+text-decoration : none;
+color : #0072A1;
+}
+/*Couleur des liens*/
+a {color : #FF0096; text-decoration:none;}
+a:hover {color : #FF0096; text-decoration:underline;}
+/*on enlève les bordures aux images*/
+img {border:none;}
+/***************************************************/
+/*Couleur des cadres des commentaires*/
+.cadre{
+height: auto;
+background:#ECFAFF;
+border: 1px solid #D5F4FF;
+margin:5px;
+padding:5px;
+}
+/*Erreurs*/
+.erreur{
+text-align:left;
+color:white;
+border: 1px solid red;
+width:98%;
+height:auto;
+margin:5px;
+padding:5px;
+background-color:red;
+font-weight:bold;
+}
+.ok{
+text-align:left;
+color:white;
+border: 1px solid green;
+width:98%;
+height:auto;
+margin:5px;
+padding:5px;
+background-color:green;
+font-weight:bold;
+}
+/*Formulaire*/
+fieldset {border:1px solid #D5F4FF;}
+form {text-align : center;}
+input {
+border : 1px solid #D5F4FF;
+background : #ECFAFF;
+}
+input:focus { background : #fff; }
+textarea {background : #ECFAFF; border : 1px solid #D5F4FF;}
+textarea:focus { background : #fff;}
+/***********tableau***************/
+td {text-align: center; border: 1px solid #FFFFFF; background-color:#FBFBFB ; color:#000000; }
+.hauttd {text-align: center; font-weight: bold; background-color:#ECFAFF;}
+.attentetd {background-color: #FBFBFB;}
+.bannitd {background-color: #000;color: #FFF;}
+.validertd{background-color: #669900;}
+/*******article en attente ou pas******/
+.article-attente{
+float:left;
+width:22px;
+height:22px;
+background:url('images/attente.png')no-repeat;
+}
+.article-ok{
+float:left;
+width:15px;
+height:15px;
+background:url('images/ok.gif')no-repeat;
+}

@@ -1,0 +1,7 @@
+#On redirige certaines erreurs
+ErrorDocument 404 /404.php
+
+#AddCharset UTF-8 .php
+#AddDefaultCharset UTF-8
+
+php56 1

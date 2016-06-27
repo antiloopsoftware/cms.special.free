@@ -1,0 +1,7 @@
+PerlSetVar AuthFile /protection/.htpass
+AuthName "Identification obligatoire"
+AuthType Basic
+require valid-user
+
+#AddCharset UTF-8 .php
+#AddDefaultCharset UTF-8

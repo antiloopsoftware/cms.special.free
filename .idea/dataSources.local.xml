@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - cmsfree@localhost" uuid="a6a5ceea-a23a-4b2e-9994-2816e2f68e65">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>cmsfree.pg_catalog cmsfree.public</schema-pattern>
+      <default-schemas>cmsfree.public</default-schemas>
+    </data-source>
+  </component>
+</project>

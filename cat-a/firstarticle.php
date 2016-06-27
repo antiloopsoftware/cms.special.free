@@ -1,0 +1,1 @@
+<?php include('../url_rewriting.php');?>
